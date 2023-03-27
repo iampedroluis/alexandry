@@ -21,7 +21,7 @@ function password(){
     let pass = document.getElementById('password').value
     let course = document.getElementById('course')
     let promt = document.getElementById('promt3')
-    if(pass == '1234'){
+    if(pass == 'lallavedelsaber'){
         course.removeAttribute('disabled')
         course.focus()
         promt.innerHTML = us
